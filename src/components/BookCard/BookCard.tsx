@@ -10,7 +10,7 @@ function BookCard() {
       />
       <div className="book-card__description">
         <p className="book-card__category">Computers</p>
-        <h2 className="book-card__name">Node.js Разработка серверных веб-приложений на JavaScript</h2>
+        <h3 className="book-card__name">Node.js Разработка серверных веб-приложений на JavaScript</h3>
         <p className="book-card__author">Дэвид Хэррон</p>
       </div>
     </article>
