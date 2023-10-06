@@ -4,8 +4,8 @@ function ResultCounter(props: { numberOfBooks: number }) {
   const { numberOfBooks } = props;
 
   return (
-    <section>
-      <h2>
+    <section className="result-counter">
+      <h2 className="result-counter__counter">
         {`Found ${numberOfBooks} result`}
       </h2>
     </section>
